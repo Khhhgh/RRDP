@@ -348,7 +348,8 @@ async def download_media(url: str, job_dir: str, media_type: str):
                 command.extend(["-f", "bv*+ba/b/best"])
 
         if "youtube.com" in url or "youtu.be" in url:
-            cookies_path = "/sdcard/Download/cookies.txt"
+            cookies_path = "cookies.txt"
+
             if os.path.exists(cookies_path):
                 command.extend(["--cookies", cookies_path])
 
