@@ -1,0 +1,6 @@
+pyTelegramBotAPI==4.26.0
+yt-dlp
+aiohttp==3.11.11
+requests==2.32.3
+beautifulsoup4==4.12.3
+urllib3==2.3.0
